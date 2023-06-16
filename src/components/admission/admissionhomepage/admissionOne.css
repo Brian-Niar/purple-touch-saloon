@@ -1,0 +1,81 @@
+.admissionAd-container{
+    margin: 0 auto;
+    width: 50%;
+    padding: 2rem 0;
+}
+.admissionAd-container h4{
+    background-color: crimson;
+    padding: 1rem;
+    color: white;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.admissionAd-container p{
+    width: 100%;
+    padding: 1rem;
+    font-size: 14px;
+    line-height: 24px;
+}
+.admissionbtns{
+    width: 100%;
+    display: flex;
+    background-color: teal;
+}
+.admissionbtn{
+    background-color: white;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online-admission{
+    background-color: brown;
+    color: white;
+    font-weight: normal;
+    transition: letter-spacing 700ms ease-out;
+    
+}
+.online-admission:hover{
+    background-color: white;
+    border: 1px solid brown;
+}
+
+.online-admission:hover .online-admission-link{
+    color: brown;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.online-admission-link{
+    text-transform: none;
+   font-weight: normal;
+}
+.visit{
+    background-color: white;
+    transition: 500ms ease-out;
+}
+.visit-link{
+    color: blue;
+    font-weight: normal;
+}
+.visit:hover{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:900px) {
+    .admissionAd-container{
+        width: 95%;
+        margin: 0 auto;
+        padding: 1rem 0.3rem;
+    }
+    .admissionAd-container p{
+        padding: 1rem 0.3rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .admissionAd-container p{
+        padding: 1rem 0.3rem;
+    }
+}

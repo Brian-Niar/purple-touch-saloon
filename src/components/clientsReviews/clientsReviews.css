@@ -1,0 +1,123 @@
+.client-reviews-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1.5rem 0;
+}
+.client-reviews-container h3{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    padding: 7px;
+    font-size: 16px;
+}
+.stars{
+    width: max-content;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.stars svg{
+    font-size: 20px;
+    color: gold;
+}
+.client-reviews-wrapper{
+    width: 100%;
+    padding: 0 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.client-review{
+   background-color: white;
+   border-radius: 15px;
+   padding: 1rem;
+}
+
+.client-review-p{
+    text-overflow: ellipsis;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+.client-review-p svg{
+    margin: 0 10px;
+    color: brown;
+}
+.client-review-info-wrapper{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.client-review-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 12px;
+}
+.client-review-header h4{
+    text-transform: capitalize;
+}
+
+.client-review-img-wrapper{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #191919;
+    overflow: hidden;
+}
+.client-review-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1050px){
+    .client-reviews-wrapper{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+}
+
+@media screen and (max-width:900px){
+    .client-reviews-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+}
+
+@media screen and (max-width:500px){
+    .client-reviews-wrapper{
+        width: 100%;
+    }
+    .client-reviews-wrapper{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:375px){
+    .client-reviews-wrapper{
+        padding: 1rem 0.5rem;
+    }
+}

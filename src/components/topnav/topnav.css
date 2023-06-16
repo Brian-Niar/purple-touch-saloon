@@ -1,0 +1,89 @@
+.top-navbar{
+    height: 100%;
+    text-transform: uppercase;
+    visibility: visible;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navlink{
+    height: 100%;
+    padding: 10px;
+    color: #191919;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    
+}
+.navlink:hover{
+    height: 100%;
+    background-color: rgba(63, 207, 207,0.5);
+}
+
+.navlink{
+    height: 100%;
+    padding: 10px 5px;
+   
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.contact{
+    height: max-content;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    background-color: crimson;
+    margin-left: 1.5rem;
+    padding: 0.7rem 0.8rem;
+
+
+}
+.contact:hover{
+    height: 100%;
+    background-color: whitesmoke;
+    border: 0.5px solid crimson;
+    color: crimson;
+}
+
+.admission{
+    height: max-content;
+    border-radius: 7px;
+    color: white;
+    padding: 0.7rem 0.8rem;
+    background-color: teal;
+    margin-left:0.5rem;
+}
+.admission:hover{
+    height: 100%;
+    color: black;
+}
+
+@media screen  and (max-width:1024px){
+    .top-navbar{        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+
+@media screen  and (max-width:900px){
+    .top-navbar{
+        visibility: hidden;
+    }
+    .menu-btn{
+    visibility: visible;
+    }
+    
+}
+
+@media screen  and (max-width:500px){
+   .top-navbar{
+    visibility: hidden;
+   }
+}

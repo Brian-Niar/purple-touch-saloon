@@ -1,0 +1,119 @@
+.service{
+    width: 100vw;
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.service h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.top-service-wrapper{
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+.top-service-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 1s ease-in-out;
+
+}
+.top-service-wrapper:hover img{
+    transform: scale(1.1);
+
+}
+
+.related-services{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.related-services-wrapper{
+    width:220px;
+    height: 220px;
+    background-color: crimson;
+    overflow: hidden;
+}
+.related-services-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease-in-out;
+}
+
+.related-services-wrapper:hover img{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1050px) {
+    .related-services{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .top-service-wrapper{
+        height: 300px;
+    }
+    .related-services{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+    .related-services-wrapper{
+        width:130px;
+        height: 130px;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .service{
+        height: auto;
+        padding: 1rem 0.5rem;
+        display: flex;
+        
+    }
+    .top-service-wrapper{
+        width: 100%;
+        height: 250px;
+    }
+    .related-services-wrapper{
+        width:100px;
+        height: 100px;
+        
+    }
+}
+
+@media screen and (max-width:375px) {
+    .service{
+        height: auto;
+        padding: 1rem 0.5rem;
+        display: flex;
+        gap: 5px;
+    }
+    .top-service-wrapper{
+        width: 100%;
+        height: 250px;
+    }
+    .related-services-wrapper{
+        width:90px;
+        height: 90px;
+        
+    }
+}

@@ -1,0 +1,198 @@
+.prefooter{
+    width: 100vw;
+    height: auto;
+    padding: 2rem 0;
+    background-color: white;
+    margin-top: 1rem;
+}
+.prefooter-wrapper{
+    width: 80%;
+    height: 100%;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: crimson;
+}
+.prefooter-wrapper h4{
+    text-transform: uppercase;
+    color: #191919;
+    width: max-content;
+    border-bottom: 2px solid burlywood;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.quicklinks{
+    width: 300px;
+    height: 270px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+   
+    background-color: #ffffff40;
+    padding: 1rem 2rem;
+
+}
+.quicklink, a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.quicklinks p svg{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.quicklinks p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.map{
+    background-color: #ffffff40;
+    padding: 5px 10px;
+    width: 350px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+}
+.map-img{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+}
+.contact-address{
+    width: 300px;
+    height: 270px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+
+    background-color: #ffffff40;
+    padding: 1rem 2rem;
+}
+.contact-address p{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-address p svg{
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: crimson;
+    font-size: 13px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+.contact-address p img{
+    width: 20px;
+    height: 20px;
+    
+}
+.contact-address a{
+    text-decoration: none;
+    color: white;
+}
+.contact-last-child{
+    font-size: 14px;
+    color: white;
+}
+.email-link{
+    text-transform: lowercase;
+    color: white;
+}
+
+@media screen and (max-width:1050px){
+    .prefooter-wrapper{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+}
+
+
+@media screen and (max-width:900px){
+    .prefooter-wrapper{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+        gap: 1rem;
+    }
+    .prefooter-wrapper h4{
+        font-size: 1.1rem;
+    }
+    .quicklinks{
+        width: 70%;
+    }
+    .contact-address{  
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    
+    .prefooter-wrapper{
+        padding: 1rem 0.5rem;
+        width: 100%;
+    }
+    .quicklinks{
+        width: 100%;
+        margin-top: 2rem;
+    }
+ 
+    .map{
+        width:100%;
+        margin-top: 0;
+        
+    }
+    .contact-address{  
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
+@media screen and (max-width:375px){
+    .quicklinks{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .map-img{
+       width:100%;
+   }
+    .contact-address{
+        width: 100%;
+    }
+}

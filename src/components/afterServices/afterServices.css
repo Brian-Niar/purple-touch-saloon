@@ -1,0 +1,24 @@
+.after-services-container{
+    width: 100vw;
+    padding: 1rem;
+}
+.after-services-wrapper{
+    width: 60%;
+    height: 200px;
+    padding: 1rem;
+    background-color: white;
+}
+.after-services-wrapper h3{
+    text-transform: capitalize;
+}
+.after-services-wrapper ul{
+    list-style: none;
+}
+@media screen and (max-width:500px) {
+    .after-services-container{
+        padding: 1rem 0.5rem;
+    }
+    .after-services-wrapper{
+        width: 100%;
+    }
+}

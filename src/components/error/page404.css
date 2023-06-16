@@ -1,0 +1,24 @@
+.error-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error{
+    padding-top: 3rem;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.error h3{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.error p{
+    color: #191919;
+}

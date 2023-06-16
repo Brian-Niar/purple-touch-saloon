@@ -1,0 +1,224 @@
+.service-section{
+    width: 100vw;
+    height: max-content;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+.service-section-titles h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.top-section-service-wrapper{
+    padding: 2px;
+    width: 900px;
+    min-height: 350px;
+    overflow: hidden;
+    border: 0.5px solid lightgray;
+    background-color: white;
+    margin-bottom: 5px;
+    transition:  700ms;
+
+    display: grid;
+    grid-template-columns: 50% 40%;
+}
+.service-img-wrapper{
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.service-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 1s ease-in-out;
+
+}
+.top-section-service-wrapper:hover img{
+    transform: scale(1.1);
+
+}
+.service-details{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+.booking-wrapper{
+    padding: 0.3rem 1.5rem;
+    width: max-content;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.booking-link{
+    color: crimson;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.service-details h4{
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.service-details p{
+    font-size: 12px;
+}
+
+.service-section-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.service-section-items h3{
+    padding: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;  
+}
+.service-section-wrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.service-section-item{
+    width:220px;
+    height: 220px;
+    overflow: hidden;
+}
+.service-section-item h5{
+    text-transform: capitalize;
+    width: max-content;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.service-section-item-img{
+    background-color: white;
+  height: 90%;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+.service-section-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease-in-out;
+}
+
+.service-section-item:hover img{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1050px) {
+    .service-section-items{
+        width: 100%;
+    }
+    .service-section-wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .service-section{
+        padding: 0 5px;
+
+    }   
+    .top-section-service-wrapper{
+        width: 95%;
+        height: 350px;
+    }
+    .service-section-items{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .service-section-item{
+        width:180px;
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .top-section-service-wrapper{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .service-details{
+        padding: 1rem 0.5rem;
+    }
+
+    .service-section-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-section-item{
+        width:120px;
+        height: 140px;
+    }
+    .service-section-item h5{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+            
+    .top-section-service-wrapper{
+        width: 100%;
+        height: 400px;
+    }
+   
+    .service-section-item{
+        width:110px;
+        height: 130px;   
+    }
+    .service-section-item h5{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .service-section-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+    .service-section-item{
+        width:100px;
+        height: 110px;
+        
+    }
+
+}

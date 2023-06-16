@@ -1,0 +1,25 @@
+.blogitem-wrapper{
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.blogitem{
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+    padding: 10px;
+}
+
+/* .blogitem h4{
+
+} */
+.blogitem article{
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width:900px) {
+    .blogitem article{
+        font-size: 13px;
+    }
+}

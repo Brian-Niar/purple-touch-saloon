@@ -1,0 +1,83 @@
+.promotions-container{
+  width: 100vw;
+  height: auto;
+  padding: 1rem;
+}
+.promotions-wrapper{
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+   display: grid;
+   gap: 7px;  
+   background-color: white;
+   box-shadow: 0 5px 5px  rgba(220, 20, 60,0.35);
+   border-radius: 20px;
+}
+.promotion-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.promotion-header h4{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.promotion-header svg{
+    color: gold;
+}
+.promotions-ul{
+    list-style-type: circle;
+}
+.promotions-ul li{
+    font-size: 12px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+.promotions-ul li svg{
+    font-size: 20px;
+}
+.promo-btns{
+    display: flex;
+    align-items: flex-start;
+    gap: 7rem;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.promo-btns svg{
+    font-size: 17px;
+
+    color: crimson;
+}
+.promo-btns button{
+    color: #191919;
+    text-transform: capitalize;
+}
+.promo-btns .promo-explore-btn{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px 16px;
+}
+.share-btn{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.share-btn:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:900px){
+    .promotions-wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .promotions-container{
+        padding:  1rem 0.5rem;
+    }
+}

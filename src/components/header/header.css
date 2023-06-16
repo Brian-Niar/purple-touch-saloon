@@ -1,0 +1,140 @@
+header{
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    box-shadow: 0 5px 5px #dc143c50;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
+.header-wrapper{
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-section{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px;
+}
+.logo{
+    width: 30%;
+}
+.school-name{
+    width: 70%;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.school-name h4{
+    color: crimson;
+    font-size: 17px;
+}
+.school-name span{
+    color: #191919;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.topnav-section{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.topnav-section  svg{
+    cursor: pointer;
+    color: #191919;
+    font-size: 2rem;
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .header-wrapper{
+        width: 98%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .logo-section{
+        width: 30%;
+        display: flex;
+    }
+    .topnav-section{
+        width: 70%;
+        display: flex;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+ 
+    .header-wrapper{
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        padding: 0 0.7rem;
+    }
+    .logo-section{
+        width: 60%;
+    }
+    .topnav-section{
+        width: 40%; 
+        display: flex;
+        justify-content: flex-end;
+    }
+    .topnav-section  svg{
+        visibility: visible;
+        display: flex;
+        justify-self: flex-end;
+    }
+}
+
+@media screen and (max-width:500px) { 
+    .header-wrapper{
+        padding: 0 0.5rem 0 0.3rem;
+
+        display: flex;
+        align-items: center;
+    }
+    .logo-section{
+        width: 80%;
+        display: flex;
+        justify-self: flex-start;
+    }
+    .topnav-section{
+        width: 20%; 
+    }
+    .topnav-section  svg{
+        visibility: visible;
+    }
+}
+@media screen and (max-width:375px) { 
+
+    .logo-section{
+        width: 80%;
+        display: flex;
+        justify-self: flex-start;
+    }
+    .topnav-section{
+        width: 20%; 
+    }
+     .school-name h4{
+        font-size: 15px;
+     }
+     .school-name span{
+        font-size: 11px;
+     }
+}
