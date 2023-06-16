@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/purple-touch-saloon/static/css/main.96c2705f.css",
+    "main.js": "/purple-touch-saloon/static/js/main.cb85bc8c.js",
+    "static/js/787.9c58b624.chunk.js": "/purple-touch-saloon/static/js/787.9c58b624.chunk.js",
+    "index.html": "/purple-touch-saloon/index.html",
+    "main.96c2705f.css.map": "/purple-touch-saloon/static/css/main.96c2705f.css.map",
+    "main.cb85bc8c.js.map": "/purple-touch-saloon/static/js/main.cb85bc8c.js.map",
+    "787.9c58b624.chunk.js.map": "/purple-touch-saloon/static/js/787.9c58b624.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c2705f.css",
+    "static/js/main.cb85bc8c.js"
+  ]
+}
